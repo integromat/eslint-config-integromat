@@ -61,7 +61,7 @@ module.exports = {
 		// 'block-scoped-var': 0,
 		// 'class-methods-use-this': 0,
 		// 'complexity': 0,
-		'consistent-return': 2,
+		'consistent-return': 0,
 		'curly': [2, 'multi-line'],
 		// 'default-case': 0,
 		// 'dot-location': 0,

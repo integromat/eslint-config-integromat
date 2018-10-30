@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-integromat",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "ESLint shareable config for the Integromat style",
   "main": "index.js",
   "repository": {
