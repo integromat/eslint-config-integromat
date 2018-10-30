@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-integromat",
+  "version": "0.1.0",
+  "description": "ESLint shareable config for the Integromat style",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/integromat/eslint-config-integromat"
+  },
+  "keywords": [
+    "integromat",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "eslint",
+    "eslintconfig",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker"
+  ],
+  "author": "Integromat",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "eslint": ">=5.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0"
+  }
+}
