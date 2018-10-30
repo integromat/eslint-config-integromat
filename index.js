@@ -1,4 +1,9 @@
 module.exports = {
+	env: {
+		node: true,
+		es6: true,
+		mocha: true
+	},
 	rules: {
 		// Possible Errors
 		// http://eslint.org/docs/rules/#possible-errors
@@ -26,7 +31,7 @@ module.exports = {
 		// 'no-inner-declarations': 2, // eslint:recommended
 		// 'no-invalid-regexp': 2, // eslint:recommended
 		'no-irregular-whitespace': 2, // eslint:recommended
-		// 'no-misleading-character-class': 0, TODO
+		// 'no-misleading-character-class': 0,
 		// 'no-obj-calls': 2, // eslint:recommended
 		// 'no-prototype-builtins': 0,
 		// 'no-regex-spaces': 2, // eslint:recommended
