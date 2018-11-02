@@ -1,9 +1,4 @@
 module.exports = {
-	env: {
-		node: true,
-		es6: true,
-		mocha: true
-	},
 	rules: {
 		// Possible Errors
 		// http://eslint.org/docs/rules/#possible-errors
