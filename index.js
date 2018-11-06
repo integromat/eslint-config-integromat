@@ -274,7 +274,7 @@ module.exports = {
 		// 'one-var-declaration-per-line': 0,
 		// 'operator-assignment': 0,
 		// 'operator-linebreak': 0,
-		'padded-blocks': [2, 'never'],
+		'padded-blocks': 0,
 		// 'padding-line-between-statements': 0,
 		// 'prefer-object-spread': 0,
 		'quote-props': [2, 'consistent'],
