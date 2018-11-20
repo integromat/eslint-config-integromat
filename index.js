@@ -141,14 +141,14 @@ module.exports = {
 			{
 				'builtinGlobals': true,
 				'hoist': 'functions',
-				'allow': ['err', 'done', 'cb', 'module']
+				'allow': ['err', 'done', 'cb', 'module', 'resolve', 'reject']
 			}
 		],
 		'no-shadow-restricted-names': 2,
 		'no-undef': 2, // eslint:recommended
 		// 'no-undef-init': 0,
 		// 'no-undefined': 0,
-		'no-unused-vars': [2, {vars: 'all', args: 'after-used'}], // eslint:recommended
+		'no-unused-vars': [2, {vars: 'all', args: 'none'}], // eslint:recommended
 		'no-use-before-define': [
 			2, 
 			{
@@ -202,7 +202,8 @@ module.exports = {
 			2,
 			'tab',
 			{
-				MemberExpression: 'off'
+				MemberExpression: 'off',
+				SwitchCase: 1
 			}
 		],
 		// 'jsx-quotes': 0,
@@ -317,7 +318,7 @@ module.exports = {
 		'generator-star-spacing': [2, 'after'],
 		// 'no-class-assign': 0,
 		'no-confusing-arrow': [2, {'allowParens': true}],
-		// 'no-const-assign': 0, // eslint:recommended
+		'no-const-assign': 2, // eslint:recommended
 		// 'no-dupe-class-members': 0, // eslint:recommended
 		// 'no-duplicate-imports': 0,
 		'no-new-symbol': 2, // eslint:recommended
